@@ -7,4 +7,6 @@ No hay historial.
 [] Mostrar tu avatarEmoji en la pantalla 
 [] Cuando mandes un mensaje que aparezca un bocadillo arriba de tu avatarEmoji
 [] Movimiento libre por la pantalla (point and click)
-[] Navegación??? (es posible?) 
+[] Navegación
+
+Los únicos paquetes que debe tener el proyecto son: express y socket.oi
