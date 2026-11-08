@@ -9,4 +9,4 @@ No hay historial.
 - [ ] Movimiento libre por la pantalla (point and click)
 - [ ] Navegación
 
-Los únicos paquetes que debe tener el proyecto son: express y socket.oi
+Los únicos paquetes que debe tener el proyecto son: express y socket.oi (Y nodemon para el desarrollo)
