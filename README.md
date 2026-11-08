@@ -2,11 +2,11 @@ El chat más simple del mundo. Simplemente muestra el usuario que escribe el men
 No hay historial.
 
 ## Cosas a añadir
-[] Mejoras a la interfaz del chat
-[] Personalización: nombre, color y emoji representativo
-[] Mostrar tu avatarEmoji en la pantalla 
-[] Cuando mandes un mensaje que aparezca un bocadillo arriba de tu avatarEmoji
-[] Movimiento libre por la pantalla (point and click)
-[] Navegación
+- [ ] Mejoras a la interfaz del chat
+- [ ] Personalización: nombre, color y emoji representativo
+- [ ] Mostrar tu avatarEmoji en la pantalla 
+- [ ] Cuando mandes un mensaje que aparezca un bocadillo arriba de tu avatarEmoji
+- [ ] Movimiento libre por la pantalla (point and click)
+- [ ] Navegación
 
 Los únicos paquetes que debe tener el proyecto son: express y socket.oi
