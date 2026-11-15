@@ -35,8 +35,10 @@ cancelButton.addEventListener("click", function () {
 avatarForm.addEventListener('submit', function (e) {
     e.preventDefault();
     const data = new FormData(avatarForm);
+    const userData = {}
     for (const [name, value] of data) {
-        console.log(name, ":", value)
+        userData[name] = value
     }
+    socket.emit('edit avatar', userData);
     avatarDialog.close();
 });

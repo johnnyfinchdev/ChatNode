@@ -16,11 +16,15 @@ io.on('connection', (socket) => {
   // Listen for chat messages from clients
   socket.on('chat message', (msg) => {
     // Broadcast the message to all connected clients
-    io.emit('chat message', {msg, name: socket.client.id});
+    io.emit('chat message', { msg, name: socket.client.id });
   });
 
   socket.on('disconnect', () => {
     console.log('User: ' + socket.client.id + ' disconnected');
+  });
+
+  socket.on('edit avatar', (data) => {
+    console.log(data)
   });
 });
 
