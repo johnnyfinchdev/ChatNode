@@ -2,7 +2,7 @@ El chat más simple del mundo. Simplemente muestra el usuario que escribe el men
 No hay historial.
 
 ## Cosas a añadir
-- [ ] Mejoras a la interfaz del chat
+- [x] Mejoras a la interfaz del chat
 - [ ] Personalización: nombre, color y emoji representativo
 - [ ] Mostrar tu avatarEmoji en la pantalla 
 - [ ] Cuando mandes un mensaje que aparezca un bocadillo arriba de tu avatarEmoji
